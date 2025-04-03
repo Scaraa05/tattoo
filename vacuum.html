@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tattoo Art Studio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.5s ease;
+        }
+        .navbar {
+            background-color: #222;
+            padding: 15px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            transition: color 0.3s ease;
+        }
+        .navbar a:hover {
+            color: #f5a623;
+        }
+        .logo {
+            width: 150px;
+            position: absolute;
+            top: 15px;
+            left: 20px;
+            animation: fadeIn 1s ease-in;
+        }
+        .container {
+            padding: 50px;
+            max-width: 1200px;
+            margin: 0 auto;
+            animation: fadeIn 2s ease-out;
+        }
+        .title {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #f5a623;
+            text-align: center;
+            margin-bottom: 30px;
+            animation: slideIn 1s ease-out;
+        }
+        .intro {
+            font-size: 1.2rem;
+            text-align: center;
+            margin-bottom: 40px;
+            animation: fadeIn 1.5s ease-out;
+        }
+        .image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            animation: scaleUp 2s ease-in-out;
+        }
+        .section {
+            margin-bottom: 50px;
+        }
+        .section h2 {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #f5a623;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .section p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            text-align: center;
+            color: #ccc;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        @keyframes slideIn {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(0); }
+        }
+        @keyframes scaleUp {
+            0% { transform: scale(0.8); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            animation: fadeIn 2s ease-out;
+        }
+        footer p {
+            font-size: 1rem;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+    <img src="logo.png" alt="Tattoo Art Studio" class="logo">
+    <a href="index.html">Home</a>
+    <a href="chi-siamo.html">Chi Siamo</a>
+    <a href="servizi.html">Servizi</a>
+    <a href="contatti.html">Contatti</a>
+</div>
+
+<!-- Content -->
+<div class="container">
+    <h1 class="title">Benvenuto da Tattoo Art Studio</h1>
+    <p class="intro">Vivi un'esperienza unica con tatuaggi personalizzati realizzati dai migliori artisti. Esplora il nostro mondo, dove arte e passione si incontrano.</p>
+    <img src="studio_image.jpg" alt="Studio Tattoo" class="image">
+
+    <!-- Chi Siamo Section -->
+    <div class="section">
+        <h2>Chi Siamo</h2>
+        <p>Al Tattoo Art Studio, la passione per l'arte del tatuaggio è al centro di tutto ciò che facciamo. Con anni di esperienza, i nostri artisti creano tatuaggi unici che raccontano storie personali e riflettono il tuo stile. Il nostro studio è il luogo ideale per chi cerca un'esperienza di tatuaggio di alta qualità, in un ambiente accogliente e sicuro.</p>
+    </div>
+
+    <!-- Servizi Section -->
+    <div class="section">
+        <h2>Servizi</h2>
+        <p>Offriamo una vasta gamma di servizi per soddisfare ogni esigenza. Che tu stia cercando un piccolo tatuaggio minimalista o un'opera d'arte complessa, siamo qui per realizzare la tua visione. I nostri servizi includono:</p>
+        <ul style="color: #ccc;">
+            <li>Tatuaggi Personalizzati</li>
+            <li>Tatuaggi Tradizionali e Moderni</li>
+            <li>Cover Up e Ritocchi</li>
+            <li>Consulenza per Design</li>
+            <li>Piercing e Body Art</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2025 Tattoo Art Studio. Tutti i diritti riservati.</p>
+</footer>
+
+</body>
+</html>
+
+
+
